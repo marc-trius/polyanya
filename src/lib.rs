@@ -25,7 +25,7 @@ use bvh2d::{
     aabb::{Bounded, AABB},
     bvh2d::BVH2d,
 };
-use glam::Vec2;
+pub use glam::Vec2;
 
 use helpers::Vec2Helper;
 use instance::{EdgeSide, InstanceStep};
